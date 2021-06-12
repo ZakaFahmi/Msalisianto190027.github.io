@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Komputasi Numeric</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.ico" rel="icon">
+  
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/style2.css" rel="stylesheet">
+
+
+
+
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/logo.ico" alt="logo">
+        <span>Komputasi Numeric</span>
+      </a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
+          <li class="dropdown"><a href="Materi.html"><span>Materi</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="Materi.html">Integrasi Numeric</a></li>
+              <li><a href="MenemukanError.html">Galat dan Penyelesaian </a></li>
+              <li><a href="PersamaanNonLinier.html">Persamaan Non Linier</a></li>
+              <li><a href="#">Persamaan Linear</a></li>
+              <li><a href="#">Persamaan Difrensial</a></li>
+            </ul>
+          </li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section class="breadcrumbs">
+      <div class="container">
+
+        <h2>Galat dan Penyelesaian </h2>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+    <!-- ======= Blog Single Section ======= -->
+    <section id="blog" class="blog">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+
+          <div class="col-lg-8 entries">
+
+            <article class="entry entry-single">
+              <h2 class="entry-title">Menemukan Error/galat</h2>
+              <div class="entry-content">
+                <p>karna untuk menemukan error/galat menggunkan Integrasi Numeric jadi konten tidak saya ubah. tapi saya tambah</p>
+                <h3>Secara umum terdapat dua sumber utama penyebab terjadinya error dalam perhitungan numerik, yaitu:
+                </h3>
+                <p>
+                  <strong> 1. Error pembulatan ( round-off error ) </strong><br>
+                  Perhitungan dengan metode numerik hampir selalu menggunakan bilangan riil.Masalah timbul apabila
+                  komputasi numerik dikerjakan oleh mesin
+                  (dalam hal ini dengan menggunakan komputer) karena semua bilangan riil tidak dapat disajikan secara
+                  tepat di dalam komputer. Keterbatasan
+                  komputer dalam menyajikan bilangan riil menghasilkan error yang disebut error pembulatan.
+                </p>
+                <p>
+                  <strong>2. Galat Pemotongan ( truncation error )</strong><br>
+                  Galat pemotongan adalah galat yang ditimbulkan oleh pembatasan jumlah komputasi yang digunakan pada
+                  proses metode numerik.
+                  Banyak metode dalam metode numerik yang penurunan rumusnya menggunakan proses iterasi yang jumlahnya
+                  tak terhingga,
+                  sehingga untuk membatasi proses penghitungan, jumlah iterasi dibatasi sampai langkah ke n. Hasil
+                  penghitungan sampai langkah ke n akan menjadi hasil hampiran dan nilai
+                  penghitungan langkah n keatas akan menjadi galat pemotongan. dalam hal ini galat pemotongan kan
+                  menjadi sangat kecil sekali jika nilai n di perbesar.
+                  Konsekuensinya tentu saja jumlah proses penghitungannya akan semakin banyak.
+                </p>
+                <h3>dibawah ini adalah metodenya :</h3>
+              </div>
+              <br>
+              <div class="entry-img">
+                <img src="assets/img/blog/blog-1.png" alt="" class="img-fluid">
+              </div>
+
+              <h2 class="entry-title">
+                <a href="MenemukanError.html">Integrasi Numeric</a>
+              </h2>
+
+              <div class="entry-content">
+                <P>integrasi numerik adalah suatu cara untuk menghitung aproksimasi luas daerah di bawah fungsi yang
+                  dimaksud pada selang yang diberikan.</P>
+                <h1>Teori</h1>
+                <h3>Integral tak tentu</h3>
+                <p>
+                  Integral tak tentu atau antiturunan atau antiderivatif adalah suatu bentuk operasi pengintegralan
+                  suatu fungsi yang menghasilkan suatu fungsi baru. Fungsi ini belum memiliki nilai pasti sehingga cara
+                  pengintegralan yang menghasilkan fungsi tak tentu ini disebut "integral tak tentu"
+                </p>
+
+                <h3>Integral tertentu</h3>
+                <p>Integral tentu (definite integral) adalah bentuk integral yang variabel integrasinya memiliki
+                  batasan. Batasan tersebut biasanya disebut sebagai batas atas dan batas bawah. Batas variabel
+                  integrasi umumnya ditulis di bagian atas dan bawah notasi integral.</p>
+
+                <img src="assets/img/blog/blog-2.png" alt="rumus1" class="img-fluid">
+                <p>
+                  Dipandang dari sudut persamaan diferensial maka mencari nilai integral L adalah sama dengan
+                  menyelesaikan persamaan diferensial:
+                  $$\frac{dx}{dy}=f(x)$$
+                  Dengan syarat batas <strong>F(x)=0</strong>
+                </p>
+
+
+                <p>untuk Integrasi numerik mempunyai metode penyelesaian banyak jadi saya cumak jelasin yang saya
+                  ketahui seperti :
+                  <br>
+                  1.Metode Newton-Cotes
+                  <br>
+                  2.Metode Trapezoid
+                  <br>
+                  3.Metode Romberg
+                  <br>
+                  4.Metode Simpson</p>
+
+                <h3>Metode Trapezoid</h3>
+                <blockquote>
+                  <p>
+                    Aturan Trapezoid adalah suatu metode pentdekatan integral numerik dengan polinom rde satu. Dalam
+                    metode ini, kurva yang berbentuk lengkung di dekatkan dengan garis lurus sedemikian sehingga, bentuk
+                    dibawah kurvanya seperti trapesium
+                  </p>
+                </blockquote>
+
+                <p>Rumus metode Trapezoid bisa di lihat di gambar di bawah :</p>
+                <img src="assets/img/blog/blog-3.png" alt="rumus2" class="img-fluid">
+
+                <p>
+                  $$I=\int_{a}^{b}f(x)dx$$
+                  $$I=\int_{a}^{b}\left(f(a)+ \frac{f(b)-f(a)}{b-a}\right)dx$$
+                  $$I=\int_{a}^{b}\left(f(a)+ \frac{f(b)-f(a)}{b-a}\right)d\frac{b}{a}$$
+                  $$I=\frac{f(b)-f(a)}{b-a}\frac{x^2}{2}\frac{b}{a}$$
+                  $$I=(a-b)\frac{f(b)-f(a)}{2}$$
+                </p>
+
+                <p> Rumus ini didasarkan pada estimasi luas di bawah kurva dengan menggunakan trapezoid.
+                  Pertama,<strong>interval [a, b]</strong> dibagi menjadi beberapa sub-interval berikut :
+                  $$a=x0,x1, ...xn-1,xn=b$$
+                </p>
+
+                <h3>Trapezoid sub-interval</h3>
+                <img src="assets/img/blog/blog-4.png" alt="rumus-4" class="img-fluid">
+                $$\int_{b}^{a}f(x)d(x)=\int_{x0}^{x1}f(x)d(x)+\int_{x1}^{x2}f(x)d(x)+...+\int_{xn-1}^{xn}f(x)d(x)$$
+                $$\frac{h}{2}\left[f(x_0)+f(x_1) \right]+\frac{h}{2}\left[f(x_1)+f(x_2)
+                \right]+...+\frac{h}{2}\left[f(x_n-1)+f(x_n) \right]$$
+                $$\frac{h}{2}\left[ f(x_0)+2f(x_1)+...2f(x_1)+...2f(xi)+...2f(x_n-1)+2f(x_n)\right]$$
+                <p>sehingga menghasilkan persamaan:</p>
+                $$I=\frac{h}{2}\left(f_0+2\sum_{i=1}^{n-1}+f_n\right)$$
+                <p>
+                  Bisa di simpulkan <strong> [xi, xi + 1]</strong> alasnya, dan kedua sisi vertikalnya <strong> f (xi)
+                    dan f (xi + 1)</strong>. Luasnya sama dengan alas dikalikan dengan tinggi rata-rata. seperti diatas:
+                </p>
+                $$h=\frac{b-a}{n}$$
+                <p>
+                  <strong> keterangan : </strong><br>
+
+                  f0 = batas bawah <br>
+
+                  fi = batas atas <br>
+
+                  h = Luas daerah diantara batas atas fi dan batas bawah f0 <br>
+
+                  n = interval
+                </p>
+
+              </div>
+
+            </article><!-- End blog entry -->
+
+
+            <div class="blog-comments">
+
+
+              <div class="reply-form">
+                <h4>Code <button type="button" class="btn btn-primary">
+                    <a href="codingan/Code1.html" style="color: azure;">Salin</a>
+                  </button>
+                </h4>
+                <img src="assets/img/code-1.png" alt="code1" class="img-fluid">
+
+                <h4>Hasil Run</h4>
+                <img src="assets/img/run-1.png" alt="run1" class="img-fluid">
+              </div>
+
+            </div><!-- End blog comments -->
+
+          </div><!-- End blog entries list -->
+
+          <div class="col-lg-4">
+
+            <div class="sidebar">
+
+              <h3 class="sidebar-title">Cari</h3>
+              <div class="sidebar-item search-form">
+                <form action="">
+                  <input type="text">
+                  <button type="submit"><i class="bi bi-search"></i></button>
+                </form>
+              </div><!-- End sidebar search formn-->
+
+              <h3 class="sidebar-title">Kategory</h3>
+              <div class="sidebar-item categories">
+                <ul>
+                  <li><a href="Materi.html">Integrasi Numeric </a></li>
+                  <li><a href="MenemukanError.html">Galat dan Penyelesaian</a></li>
+                  <li><a href="PersamaanNonLinier.html">persamaan Non Linier </a></li>
+                  <li><a href="#">Persamaan Linier </a></li>
+                  <li><a href="#">Persamaan Diferensial</a></li>
+                </ul>
+              </div><!-- End sidebar categories-->
+
+
+              <h3 class="sidebar-title">Kalkulator</h3>
+              <div id="container2">
+                <div id="calculator">
+                  <div id="result">
+                    <div id="history">
+                      <p id="history-value"></p>
+                    </div>
+                    <div id="output">
+                      <p id="output-values"></p>
+                    </div>
+                  </div>
+                  <div id="keyboard">
+                    <button class="operator" id="clear">C</button>
+                    <button class="operator" id="backspace">CE</button>
+                    <button class="operator" id="%">%</button>
+                    <button class="operator" id="/">&#247;</button>
+                    <button class="number" id="7">7</button>
+                    <button class="number" id="8">8</button>
+                    <button class="number" id="9">9</button>
+                    <button class="operator" id="*">&times;</button>
+                    <button class="number" id="4">4</button>
+                    <button class="number" id="5">5</button>
+                    <button class="number" id="6">6</button>
+                    <button class="operator" id="-">-</button>
+                    <button class="number" id="1">1</button>
+                    <button class="number" id="2">2</button>
+                    <button class="number" id="3">3</button>
+                    <button class="operator" id="+">+</button>
+                    <button class="empty" id="empty"></button>
+                    <button class="number" id="0">0</button>
+                    <button class="empty" id="empty"></button>
+                    <button class="operator" id="=">=</button>
+                  </div>
+                </div>
+              </div>
+              <script src="assets/js/script2.js"></script>
+              <!--kalkulator-->
+
+
+            </div><!-- End sidebar recent posts-->
+
+          </div><!-- End sidebar -->
+
+        </div><!-- End blog sidebar -->
+
+      </div>
+
+      </div>
+    </section><!-- End Blog Single Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="container">
+      <div class="copyright">
+        &copy; 190411100027 <strong><span>Zaka Fahmi</span></strong>. Komputasi Numeric A
+      </div>
+      <div class="credits">
+        Githab <a href="https://github.com/Msalisianto190027">Zaka Fahmi</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <!--mathjax js-->
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
+
+</body>
+
+</html>

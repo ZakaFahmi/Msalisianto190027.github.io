@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Komputasi Numeric</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.ico" rel="icon">
+  
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/style2.css" rel="stylesheet">
+
+
+
+
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/logo.ico" alt="logo">
+        <span>Komputasi Numeric</span>
+      </a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
+          <li class="dropdown"><a href="Materi.html"><span>Materi</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="Materi.html">Integrasi Numeric</a></li>
+              <li><a href="MenemukanError.html">Galat dan Penyelesaian</a></li>
+              <li><a href="#">Persamaan Non Linier</a></li>
+              <li><a href="#">Persamaan Linear</a></li>
+              <li><a href="#">Persamaan Difrensial</a></li>
+            </ul>
+          </li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section class="breadcrumbs">
+      <div class="container">
+
+        <h2>persamaan Non Linier</h2>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+    <!-- ======= Blog Single Section ======= -->
+    <section id="blog" class="blog">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+
+          <div class="col-lg-8 entries">
+
+            <article class="entry entry-single">
+
+              <h2 class="entry-title">
+                <a href="PersamaanNonLinier.html">persamaan Non Linier</a>
+              </h2>
+
+              <div class="entry-content">
+                <P>Kesimpulan Persamaan non-linier dapat diartikan sebagai persamaan yang tidak mengandung syarat seperti persamaan linier,
+                  sehingga persamaan non-linier dapat merupakan:<br>
+                  1. Persamaan yang memiliki pangkat selain satu:
+                  $$x^{2}$$
+                  
+                  2. Persamaan yang mempunyai produk dua variabel:
+                  $$xy$$ <br>
+                  Dalam penyelesaian persamaan non-linier diperlukan akar-akar persamaan non-linier, dimana akar sebuah persamaan non-linier
+                  <strong>f(x)=0</strong> merupakan nilai <strong>x</strong> yang menyebabkan nilai <strong>f(x)</strong> sama dengan nol.
+                  Dalam hal ini dapat disimpulkan bahwa akar-akar penyelesaian persamaan non-linier merupakan titik potong antara kurva
+                  <strong>f(x)</strong> dengan sumbu <strong>x</strong>. <br>
+                </P>
+
+                <p>
+                  persamaan non-linier mempunyai banyak metode seperti: <br> <br>
+                  <strong>Metode Terbuka</strong> <br>
+                    Metode Iterasi Titik Tetap <br>
+                    Metode Newton-Rapshon <br>
+                    Metode Secant <br> <br>
+                  <strong>Metode Terbuka</strong> <br>
+                    Metode Biseksi <br>
+                    Metode Regula Falsi <br>
+                    dan lain sebagainya ...
+                </p>
+
+                <h1>Teori Metode Newton-Raphson</h1>
+
+                <p>
+                  Metode Newton-Raphson merupakan metode penyelesaian persamaan non-linier dengan menggunakan pendekatan satu 
+                  titik awal dan mendekatinya dengan memperhatikan slope atau gradien. titik pendekatan dinyatakan pada Persamaan.
+                </p>
+                <p>
+                  $$x_n+1=x_n - \frac{f(x_n)}{f^{1}(x_n)}$$
+                </p>
+              
+                <img src="assets/img/blog/blog-5.png" alt="rumus5" class="img-fluid"> 
+
+                <p>
+                  Untuk dapat menggunakan metode Newton-Raphson, terlebih dahulu kita perlu memperoleh turunan pertama dari persamaan tersebut.
+                </p>
+                <p>
+                  $$f(x)=x - e^{-x}\rightarrow f^{1}(x)=1+e^{-x}$$
+                </p>
+                <p>
+                  Tebakan awal yang digunakan adalah <strong>x=0</strong>
+                </p>
+                <p>
+                  $$f(x0)=0-e^{-0}=-1$$
+                  $$f^1(x0)=1-e^{-0} =2$$
+                </p>
+                <p>
+                  Hitung nilai <strong>x</strong> baru:
+                  $$x1=x0-\frac{f(x0)}{x^1(x0)}=0-\frac{-1}{2}=0,5$$
+                  Berdasarkan hasil iterasi diperoleh akar penyelesaian persamaan non-linier adalah:
+                  $$x=0,5671433$$
+                  dengan jumlah iterasi yang diperlukan adalah  5 iterasi.
+                </p>
+
+                <h1>Teori Metode Newton-Raphson</h1>
+
+                <p>
+                  Metode biseksi merupakan salah satu metode tertutup untuk mentukan solusi akar dari persamaan non linear. 
+                  Ide awal dari metode biseksi adalah metode tabel dimana areanya dibagi menjadi N bagian. Sementara dalam motode biseksi membagi range menjadi 2 (dua) bagian saja.
+                  Akar-akar persamaan nonlinear dicari  melalui proses iterasi, dengan prinsip utama sebagai berikut: memilih bagain yang mengandung akar dan membuang yang tidak 
+                  mengandung akar hingga diperoleh akar persamaan.
+                </p>
+
+                <p>
+                  Hal yang terlebih dahulu harus ditentukan dalam metode biseksi adalah menentukan batas bawah (a) dan batas atas (b). Kemudian dicari nilai tengah : x=(a+b)/2. Secara matematis,
+                  akan terdapat akar persamaan bila f(a) dan f(b) dalam suatu range berlawanan tanda atau f(a) x (f(b) < 0.
+                </p>
+
+                <h3>Algorima Metode Biseksi</h3>
+                <p>
+                  1.Definisikan fungsi f(x) yang akan dicari akarnya <br>
+                  2.Tentukan nilai a dan b <br>
+                  3.Tentukan torelansi e dan iterasi maksimum N <br>
+                  4.Hitung f(a) dan f(b) <br>
+                  5.Jika f(a).f(b)>0 maka proses dihentikan karena tidak ada akar, bila tidak dilanjutkan <br>
+                  6.Hitung x=(a+b)/2 <br>
+                  7.Hitung f(x) <br>
+                  
+                </p>
+
+                
+
+              </div>
+
+            </article><!-- End blog entry -->
+
+
+            <div class="blog-comments">
+
+
+              <div class="reply-form">
+                <h4>Code <button type="button" class="btn btn-primary">
+                    <a href="codingan/Code2.html" style="color: azure;">Salin</a>
+                  </button>
+                </h4>
+                <img src="assets/img/code-2.png" alt="code2" class="img-fluid">
+
+                <h4>Hasil Run</h4>
+                <img src="assets/img/run-2.png" alt="run2" class="img-fluid">
+              </div>
+
+            </div><!-- End blog comments -->
+
+          </div><!-- End blog entries list -->
+
+          <div class="col-lg-4">
+
+            <div class="sidebar">
+
+              <h3 class="sidebar-title">Cari</h3>
+              <div class="sidebar-item search-form">
+                <form action="">
+                  <input type="text">
+                  <button type="submit"><i class="bi bi-search"></i></button>
+                </form>
+              </div><!-- End sidebar search formn-->
+
+              <h3 class="sidebar-title">Kategory</h3>
+              <div class="sidebar-item categories">
+                <ul>
+                  <li><a href="Materi.html">Integrasi Numeric </a></li>
+                  <li><a href="MenemukanError.html">Galat dan Penyelesaian</a></li>
+                  <li><a href="#">persamaan Non Linier </a></li>
+                  <li><a href="#">Persamaan Linier </a></li>
+                  <li><a href="#">Persamaan Diferensial</a></li>
+                </ul>
+              </div><!-- End sidebar categories-->
+
+
+              <h3 class="sidebar-title">Kalkulator</h3>
+              <div id="container2">
+                <div id="calculator">
+                  <div id="result">
+                    <div id="history">
+                      <p id="history-value"></p>
+                    </div>
+                    <div id="output">
+                      <p id="output-values"></p>
+                    </div>
+                  </div>
+                  <div id="keyboard">
+                    <button class="operator" id="clear">C</button>
+                    <button class="operator" id="backspace">CE</button>
+                    <button class="operator" id="%">%</button>
+                    <button class="operator" id="/">&#247;</button>
+                    <button class="number" id="7">7</button>
+                    <button class="number" id="8">8</button>
+                    <button class="number" id="9">9</button>
+                    <button class="operator" id="*">&times;</button>
+                    <button class="number" id="4">4</button>
+                    <button class="number" id="5">5</button>
+                    <button class="number" id="6">6</button>
+                    <button class="operator" id="-">-</button>
+                    <button class="number" id="1">1</button>
+                    <button class="number" id="2">2</button>
+                    <button class="number" id="3">3</button>
+                    <button class="operator" id="+">+</button>
+                    <button class="empty" id="empty"></button>
+                    <button class="number" id="0">0</button>
+                    <button class="empty" id="empty"></button>
+                    <button class="operator" id="=">=</button>
+                  </div>
+                </div>
+              </div>
+              <script src="assets/js/script2.js"></script>
+              <!--kalkulator-->
+
+
+            </div><!-- End sidebar recent posts-->
+
+          </div><!-- End sidebar -->
+
+        </div><!-- End blog sidebar -->
+
+      </div>
+
+      </div>
+    </section><!-- End Blog Single Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="container">
+      <div class="copyright">
+        &copy; 190411100027 <strong><span>Zaka Fahmi</span></strong>. Komputasi Numeric A
+      </div>
+      <div class="credits">
+        Githab <a href="https://github.com/Msalisianto190027">Zaka Fahmi</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <!--mathjax js-->
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
+
+</body>
+
+</html>
