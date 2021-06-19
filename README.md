@@ -9,5 +9,7 @@ link : https://msalisianto190027.github.io/
 
 ### tempalte ini saya bikin sendiri 
 
-### kalau mau amhbil download aja ... 
+### kalau mau ambil download aja ... 
+
+![tampilan web](https://github.com/Msalisianto190027/Msalisianto190027.github.io/blob/main/tampilan.png)
 
