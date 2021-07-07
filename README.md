@@ -8,8 +8,7 @@ link : https://msalisianto190027.github.io/
 4. js latex untuk buat simbol matematika
 
 ### tempalte ini saya bikin sendiri 
-
-### kalau mau ambil download aja ... 
+untuk memenuhi tugas akhir komputasi numeric
 
 ![tampilan web](https://github.com/Msalisianto190027/Msalisianto190027.github.io/blob/main/tampilan.png)
 
