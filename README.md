@@ -8,7 +8,7 @@ link : https://msalisianto190027.github.io/
 4. js latex untuk buat simbol matematika
 
 ### tentang tempalte ini
-tempalte  dibuat untuk memenuhi tugas akhir komputasi numeric semester 4
+tempalte  dibuat untuk memenuhi tugas akhir komputasi numeric semester 4 <br>
 untuk gambar saya ambil dari freepik
 
 ![tampilan web](https://github.com/Msalisianto190027/Msalisianto190027.github.io/blob/main/tampilan.png)
