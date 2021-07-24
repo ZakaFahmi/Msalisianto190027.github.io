@@ -7,8 +7,9 @@ link : https://msalisianto190027.github.io/
 3. program js sebagai animasi
 4. js latex untuk buat simbol matematika
 
-### tempalte ini saya bikin sendiri 
-untuk memenuhi tugas akhir komputasi numeric
+### tentang tempalte ini
+tempalte  dibuat untuk memenuhi tugas akhir komputasi numeric semester 4
+untuk gambar saya ambil dari freepik
 
 ![tampilan web](https://github.com/Msalisianto190027/Msalisianto190027.github.io/blob/main/tampilan.png)
 
